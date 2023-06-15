@@ -1,0 +1,25 @@
+{
+    "name": "duyler/contract",
+    "type": "library",
+    "description": "Duyler framework contracts",
+    "license": "MIT",
+    "keywords": [
+        "contract"
+    ],
+    "authors": [
+        {
+            "name": "Mikhail Ilinsky",
+            "email": "mail@milinsky.ru"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "duyler/event-bus": "dev-main"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Duyler\\Contract\\": "src/"
+        }
+    }
+}
